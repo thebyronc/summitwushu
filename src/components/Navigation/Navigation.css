@@ -1,0 +1,48 @@
+.Navigation {
+  color: #292929;
+  font-family: 'Raleway', "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-end;
+  align-items: flex-end;
+  padding: 16px 32px;
+}
+
+.Navigation .nav-logo {
+  max-height: 50px;
+  background-color: #292929;
+  padding: 0px 0px 0px 8px;
+}
+
+.Navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.Navigation li {
+  float: left;
+}
+
+.Navigation li a {
+  display: block;
+  color: #292929;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: .4s;
+}
+
+.Navigation li a:hover:not(.active) {
+  background-color: #00A1DF;
+  color: #ffffff;
+}
+
+.Navigation .active {
+  background-color: #00A1DF;
+  color: #ffffff;
+}
