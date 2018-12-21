@@ -8,12 +8,14 @@
   text-align: center;
   height: 400px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
 }
 
 .Hero h1 {
   font-family: 'Raleway', "Helvetica Neue", sans-serif;
-  font-weight: 700;
+  font-weight: 900;
   text-shadow: 1px 2px 6px #292929;
   margin-bottom: 0px;
   font-size: 52px;

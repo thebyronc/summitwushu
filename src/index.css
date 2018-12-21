@@ -1,20 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Raleway:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,500,700,800');
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000000;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-
 h2 {
-  font-size: 24px;
+  font-family: 'Raleway';
+  /* font-size: 32px; */
+  font-weight: 800;
+  color: #00A1DF;
+  /* margin-bottom: 16px; */
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 22px;
+  font-weight: 700;
+  color: #58595B;
+}
+
+p {
+  line-height: 25px;
+}
+
+.header-bg {
+  background-color: #00A1DF;
+}
+
+.translate-slant {
+  -webkit-transform: skewX(-25deg);
+  -ms-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+  position: relative;
+  left: -10px;
+  background-color: #00A1DF;
 }

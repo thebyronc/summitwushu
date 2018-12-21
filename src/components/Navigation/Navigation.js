@@ -5,7 +5,7 @@ import logo from '../../assets/images/summit_banner.png';
 class Navigation extends Component {
   render() {
     return (
-      <div className="Navigation">
+      <div className="Navigation container">
       <img src={logo} className="nav-logo" />
         <ul>
           <li><a href="#">Home</a></li>
